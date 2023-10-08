@@ -2,7 +2,7 @@
 //  HyperTexApp.swift
 //  HyperTex
 //
-//  Created by Dom Panaia on 2023-10-02.
+//  Created by Sythatic on 2023-10-02.
 //
 
 import SwiftUI
