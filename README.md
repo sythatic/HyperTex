@@ -6,12 +6,12 @@
 #### A simple macOS app that allows users to view HTML files without the overhead of a full browser.
 </div>
 
-#### Planned Features & Support
+### Planned Features & Support
 
 - [x] macOS  `IN PROGRESS`
 - [ ] Windows  `NOT STARTED`
 
-View and edit
+### View and edit
 - [x] HTML & CSS Files
 - [ ] Markdown Files
 - [ ] Compiled HTML Help (.chm)
