@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7462EF4D2ACADC9000A1FD00 /* HyperTexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462EF4C2ACADC9000A1FD00 /* HyperTexApp.swift */; };
-		7462EF4F2ACADC9000A1FD00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462EF4E2ACADC9000A1FD00 /* ContentView.swift */; };
 		7462EF512ACADC9000A1FD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7462EF502ACADC9000A1FD00 /* Assets.xcassets */; };
 		7462EF542ACADC9000A1FD00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7462EF532ACADC9000A1FD00 /* Preview Assets.xcassets */; };
+		74C8DC862AD281440047B2EE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8DC842AD2812E0047B2EE /* WebKit.framework */; };
+		74C8DC8B2AD281530047B2EE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8DC892AD2814F0047B2EE /* SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7462EF492ACADC9000A1FD00 /* HyperTex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperTex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7462EF4C2ACADC9000A1FD00 /* HyperTexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperTexApp.swift; sourceTree = "<group>"; };
-		7462EF4E2ACADC9000A1FD00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7462EF502ACADC9000A1FD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7462EF532ACADC9000A1FD00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7462EF552ACADC9000A1FD00 /* HyperTex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperTex.entitlements; sourceTree = "<group>"; };
+		74C8DC842AD2812E0047B2EE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		74C8DC892AD2814F0047B2EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C8DC8B2AD281530047B2EE /* SwiftUI.framework in Frameworks */,
+				74C8DC862AD281440047B2EE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +42,7 @@
 			children = (
 				7462EF4B2ACADC9000A1FD00 /* HyperTex */,
 				7462EF4A2ACADC9000A1FD00 /* Products */,
+				74C8DC832AD2812E0047B2EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				7462EF4C2ACADC9000A1FD00 /* HyperTexApp.swift */,
-				7462EF4E2ACADC9000A1FD00 /* ContentView.swift */,
 				7462EF502ACADC9000A1FD00 /* Assets.xcassets */,
 				7462EF552ACADC9000A1FD00 /* HyperTex.entitlements */,
 				7462EF522ACADC9000A1FD00 /* Preview Content */,
@@ -67,6 +71,15 @@
 				7462EF532ACADC9000A1FD00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74C8DC832AD2812E0047B2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74C8DC892AD2814F0047B2EE /* SwiftUI.framework */,
+				74C8DC842AD2812E0047B2EE /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7462EF4F2ACADC9000A1FD00 /* ContentView.swift in Sources */,
 				7462EF4D2ACADC9000A1FD00 /* HyperTexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
